@@ -11,5 +11,9 @@ export const GlobalStyles = createGlobalStyle`
     
     body {
         background-color: #213547;
+        margin: 0;
+        font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
     }
 `
