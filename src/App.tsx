@@ -5,27 +5,17 @@ import './App.css'
 import styled from 'styled-components';
 import {StyledBtn} from './components/Button.styled.tsx';
 import {Link} from './components/Link.styled.tsx';
-import { Menu } from './components/Menu.styled.tsx';
-import {SuperButton} from './components/SuperButton.tsx';
+
 
 function App() {
 
   // @ts-ignore
     return (
       <div className={"App"}>
-          <Menu>
-              <ul>
-                  <li><a href="">item 1</a></li>
-                  <li><a href="">item 2</a></li>
-                  <li><a href="">item 3</a></li>
-              </ul>
-          </Menu>
-
           <Box>
-              <StyledBtn as={Link} href={"#"}>LinkComponent</StyledBtn>
-              <StyledBtn as={"a"} href={"#"}>Link</StyledBtn>
-              <StyledBtn>Hello</StyledBtn>
-              <SuperButton>Super Button</SuperButton>
+              <StyledBtn color="green" fontSize={"20px"}>Hello</StyledBtn>
+              <StyledBtn color="red">Hello</StyledBtn>
+              <StyledBtn fontSize={"30px"}>Hello</StyledBtn>
           </Box>
       </div>
   )
