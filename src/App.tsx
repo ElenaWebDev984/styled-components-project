@@ -3,13 +3,15 @@
 
 import './App.css'
 import styled from 'styled-components';
-import {StyledBtn, SuperButton} from './components/Button.styled.tsx';
+import {StyledBtn} from './components/Button.styled.tsx';
 import {Link} from './components/Link.styled.tsx';
 import { Menu } from './components/Menu.styled.tsx';
+import {SuperButton} from './components/SuperButton.tsx';
 
 function App() {
 
-  return (
+  // @ts-ignore
+    return (
       <div className={"App"}>
           <Menu>
               <ul>
