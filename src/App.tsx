@@ -9,6 +9,8 @@ function App() {
   return (
       <div className={"App"}>
           <Box>
+              <StyledBtn as={Link} href={"#"}>LinkComponent</StyledBtn>
+              <StyledBtn as={"a"} href={"#"}>Link</StyledBtn>
               <StyledBtn>Hello</StyledBtn>
               <SuperButton>Super Button</SuperButton>
           </Box>
@@ -27,6 +29,12 @@ const StyledBtn = styled.button`
     font-weight: bold;
 `
 
+const Link = styled.a`
+    color: #747bff;
+    font-size: 2rem;
+    font-weight: bold;
+`
+
 const SuperButton = styled(StyledBtn)`
     border-radius: 5px;
     background-color: #e1fd01;
@@ -39,3 +47,7 @@ const Box = styled.div`
     justify-content: center;
     align-items: center;
 `
+
+
+
+
