@@ -47,6 +47,11 @@ const Box = styled.div`
 ${Link} {
     cursor: zoom-in;
 }
+    
+//    АДАПТИВ
+    @media screen and (max-width: 800px) {
+        flex-direction: column;
+    }
 `
 
 
