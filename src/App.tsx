@@ -9,9 +9,12 @@ function App() {
     return (
       <div className={"App"}>
           <Box>
-              <StyledBtn color="green" fontSize={"20px"}>Hello</StyledBtn>
-              <StyledBtn color="red">Hello</StyledBtn>
-              <StyledBtn fontSize={"30px"}>Hello</StyledBtn>
+              {/*<StyledBtn color="green" fontSize={"20px"}>Hello</StyledBtn>*/}
+              {/*<StyledBtn color="red">Hello</StyledBtn>*/}
+              {/*<StyledBtn fontSize={"30px"}>Hello</StyledBtn>*/}
+
+              <StyledBtn primary>Hello</StyledBtn>
+              <StyledBtn outlined>Hello</StyledBtn>
           </Box>
       </div>
   )
