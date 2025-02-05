@@ -35,6 +35,12 @@ export const StyledBtn = styled.button<StyledBtnPropsType>`
         border: 2px solid ${props => props.color || "#c023a4"};
         color: ${props => props.color || "#c023a4"};
         background-color: transparent;
+        
+        &:hover {
+            border-color: #0f1cef;
+            color: #0f1cef;
+            background-color: transparent;
+        }
     `}
     
     ${props => props.primary && css<StyledBtnPropsType>`
