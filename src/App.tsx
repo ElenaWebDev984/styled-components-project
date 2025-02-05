@@ -1,6 +1,3 @@
-// @ts-ignore
-// @ts-ignore
-
 import './App.css'
 import styled from 'styled-components';
 import {StyledBtn} from './components/Button.styled.tsx';
@@ -9,7 +6,6 @@ import {Link} from './components/Link.styled.tsx';
 
 function App() {
 
-  // @ts-ignore
     return (
       <div className={"App"}>
           <Box>
